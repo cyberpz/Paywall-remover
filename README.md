@@ -10,7 +10,7 @@ Any contribution is greatly appreciated.
 
 ## Usage
 
-- Install TamperMonkey for (Chrome)[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=it]/(Firefox)[https://addons.mozilla.org/it/firefox/addon/tampermonkey/]
+- Install TamperMonkey for [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=it)/[Firefox](https://addons.mozilla.org/it/firefox/addon/tampermonkey/)
 - Create new script, and paste the content of the script.
 - Save the script.
 - Reload the page to apply changes.
