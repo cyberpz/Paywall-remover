@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ansa PayWall
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Remove Cookie PayWall from ANSA.it
 // @author       Cyber.Pz
 // @match        https://www.ansa.it/*
@@ -11,6 +11,7 @@
 
 (function() {
     setTimeout(() => {
+        document.querySelector("html").style.removeProperty('overflow')
         document.getElementsByClassName("prompt-to-accept")[0].remove();
         document.getElementsByTagName('header')[0].remove();
         document.getElementsByTagName('footer')[0].remove();
